@@ -5,6 +5,7 @@
     background-position: bottom left, bottom right; */
   position: relative;
   z-index: 10;
+  overflow: hidden;
 }
 
 .banner .subtitle {
@@ -22,7 +23,6 @@
 
 .banner .bg1 {
   position: absolute;
-  overflow: hidden;
   top: 10%;
   right: 0;
   z-index: -1;
@@ -30,7 +30,6 @@
 
 .banner .bg2 {
   position: absolute;
-  overflow: hidden;
   bottom: -5%;
   left: 1%;
   z-index: -1;
@@ -69,4 +68,37 @@
   display: flex;
   animation: marqueeAnimation 40s linear infinite;
   animation-delay: -20s;
+}
+
+.material {
+  position: relative;
+  overflow: hidden;
+}
+
+
+.material .subtitle {
+  margin-bottom: 56px;
+}
+
+.material_card {
+  border-radius: 32px;
+  background: var(--Other-Color-01, #1E1E1E);
+  padding: 32px;
+  height: 100%;
+  border: 2px solid transparent;
+  transition: 0.3s ease-in-out;
+}
+
+.material_card:hover {
+  background: linear-gradient(#1E1E1E, #1E1E1E) padding-box,
+    linear-gradient(266deg, #4158D0 8.47%, #C850C0 50.26%, #FFCC70 88.71%) border-box;
+  box-shadow: 0px 4px 24px 0px rgba(167, 93, 231, 0.28);
+}
+
+.gradient {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%) rotate(23deg);
+  z-index: -1;
 }
