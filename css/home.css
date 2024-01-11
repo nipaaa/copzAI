@@ -1,3 +1,12 @@
+.banner {
+    /* background-image: url('../assets/gradient_circel_bg.png'), url('../assets/gradient_circel_bg.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    background-position: bottom left, bottom right; */
+    position: relative;
+    z-index: 10;
+}
+
 .banner .subtitle {
     margin-bottom: 32px;
 }
@@ -9,4 +18,20 @@
     line-height: 150%;
     margin-bottom: 56px;
     box-shadow: 0 2px 4px rgba(65, 88, 208, 0.5), 0 4px 8px rgba(200, 80, 192, 0.5), 0 8px 16px rgba(255, 204, 112, 0.5);
+}
+
+.banner .bg1 {
+    position: absolute;
+    overflow: hidden;
+    top: 10%;
+    right: 0;
+    z-index: -1;
+}
+
+.banner .bg2 {
+    position: absolute;
+    overflow: hidden;
+    bottom: -5%;
+    left: 1%;
+    z-index: -1;
 }
