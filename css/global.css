@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 h1,
 h2,
@@ -112,4 +113,58 @@ h2 {
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
+}
+
+footer {
+    background: #222;
+    box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
+    padding-top: 88px;
+    color: var(--Secondary-color, #FFF);
+}
+
+footer p {
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--Secondary-color, #FFF);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.help {
+    border-radius: 21px;
+    background: var(--Gradient-Linear-3, linear-gradient(90deg, #4158D0 8.47%, #C850C0 50.26%, #FFCC70 88.71%));
+    margin-bottom: 60px;
+    padding: 48px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.help p {
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    max-width: 530px;
+}
+
+.help button {
+    color: var(--Primary-Color, #181818);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 16px 20px;
+    border-radius: 11px;
+    background: var(--Secondary-color, #FFF);
+    border: 0;
 }
