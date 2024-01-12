@@ -59,7 +59,8 @@ header {
     background: var(--Gradient-Linear-3, linear-gradient(90deg, #4158D0 8.47%, #C850C0 50.26%, #FFCC70 88.71%));
     box-shadow: 0px 1.972px 1.972px 0px rgba(0, 0, 0, 0.15), 0px 0.986px 0px 0px #6646EB inset;
     border: 1px solid #1E1E1E;
-}
+
+/}
 
 header button {
     color: var(--Secondary-color, #FFF);

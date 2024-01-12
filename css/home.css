@@ -82,17 +82,18 @@
 
 .material_card {
   border-radius: 32px;
-  background: var(--Other-Color-01, #1E1E1E);
+  background: #1E1E1E;
   padding: 32px;
-  height: 100%;
+  min-height: 100%;
+  /* Use min-height instead of height */
   border: 2px solid transparent;
-  transition: 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
 }
 
 .material_card:hover {
   background: linear-gradient(#1E1E1E, #1E1E1E) padding-box,
     linear-gradient(266deg, #4158D0 8.47%, #C850C0 50.26%, #FFCC70 88.71%) border-box;
-  box-shadow: 0px 4px 24px 0px rgba(167, 93, 231, 0.28);
+  /* box-shadow: 0px 4px 24px 0px rgba(167, 93, 231, 0.28); */
 }
 
 .gradient {
@@ -101,4 +102,17 @@
   left: 50%;
   transform: translateX(-50%) rotate(23deg);
   z-index: -1;
+}
+
+.how_to button {
+  color: var(--Primary-Color, #181818);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  border-radius: 11px;
+  padding: 10px;
+  max-width: 178px;
+  width: 100%;
+  border: none;
+  margin-top: 42px;
 }
