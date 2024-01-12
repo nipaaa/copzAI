@@ -38,16 +38,11 @@
 .marqueeContainer {
   max-width: 2500px;
   margin: auto;
-  /* padding: 20px 0;
-    background: var(--secondaryColor); */
 }
 
-/* .marqueeContainer.company_slider {
-    background: none;
-  } */
+
 
 .marquee {
-  /* white-space: nowrap; */
   min-width: 100%;
   overflow: hidden;
 }
@@ -85,7 +80,6 @@
   background: #1E1E1E;
   padding: 32px;
   min-height: 100%;
-  /* Use min-height instead of height */
   border: 2px solid transparent;
   transition: background 0.3s ease-in-out;
 }
@@ -93,7 +87,7 @@
 .material_card:hover {
   background: linear-gradient(#1E1E1E, #1E1E1E) padding-box,
     linear-gradient(266deg, #4158D0 8.47%, #C850C0 50.26%, #FFCC70 88.71%) border-box;
-  /* box-shadow: 0px 4px 24px 0px rgba(167, 93, 231, 0.28); */
+  box-shadow: 0px 4px 24px 0px rgba(167, 93, 231, 0.28);
 }
 
 .gradient {
@@ -115,4 +109,77 @@
   width: 100%;
   border: none;
   margin-top: 42px;
+}
+
+.form-check .form-check-input {
+  float: unset;
+}
+
+.form-switch {
+  margin-bottom: 54px;
+}
+
+.choose {
+  position: relative;
+  overflow: hidden;
+}
+
+.choose .gradient_shade {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) rotate(23deg);
+  top: -93%;
+}
+
+.choose_card {
+  border-radius: 19px;
+  border: 1px solid var(--Line-Color-03, #EEE);
+  background: var(--Color-06, #272727);
+  padding: 45px;
+  transition: 0.3s ease-in;
+}
+
+.choose_card:hover {
+  border: 1px solid transparent;
+  background: linear-gradient(#272727, #272727) padding-box,
+    linear-gradient(266deg, #4158D0 8.47%, #C850C0 50.26%, #FFCC70 88.71%) border-box !important;
+  box-shadow: 0px 4px 24px 0px rgba(167, 93, 231, 0.28);
+}
+
+.choose_card .dollar {
+  color: var(--Secondary-color, #FFF);
+  font-size: 73.92px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.choose_card button {
+  border-radius: 16px;
+  border: 1px solid var(--Line-Color-01, #888);
+  color: var(--Secondary-color, #FFF);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  padding: 10px;
+  width: 100%;
+  background-color: transparent;
+  transition: 0.3s ease-in;
+}
+
+.choose_card:hover button {
+  border: 1px solid transparent;
+  background: linear-gradient(90deg, #FFCC70 11.68%, #C850C0 51.22%, #4158D0 88.71%);
+}
+
+.choose_card .gradient_icon {
+  display: none;
+  transition: 0.3s ease-in;
+}
+
+.choose_card:hover .gradient_icon {
+  display: block;
+}
+
+.choose_card:hover .gray_icon {
+  display: none;
 }

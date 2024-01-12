@@ -60,7 +60,8 @@ header {
     box-shadow: 0px 1.972px 1.972px 0px rgba(0, 0, 0, 0.15), 0px 0.986px 0px 0px #6646EB inset;
     border: 1px solid #1E1E1E;
 
-/}
+    /
+}
 
 header button {
     color: var(--Secondary-color, #FFF);
@@ -114,6 +115,8 @@ h2 {
     font-weight: 400;
     line-height: 150%;
 }
+
+
 
 footer {
     background: #222;
