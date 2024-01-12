@@ -187,17 +187,14 @@
 .genius {
   position: relative;
   overflow: hidden;
+  background-image: url('/assets/home/genious-bg.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
 
 }
 
-.genius .gradient_shade {
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-  top: 2%;
-  left: 50%;
-  transform: rotate(26deg) translate(-50%);
-}
+
 
 .genius .row {
   border-radius: 21px;
@@ -216,4 +213,36 @@
   border-radius: 11px;
   background: var(--Color-04, #A7F46A);
   border: none;
+}
+
+.accordion-item,
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  background: var(--Color-05, #232323);
+  color: white;
+}
+
+.accordion-item {
+  border-radius: 16px !important;
+  box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
+  color: white;
+  border: none;
+}
+
+.accordion-button,
+.accordion-button:focus,
+.accordion-button:focus-visible,
+.accordion-button:not(.collapsed) {
+  border-radius: 16px !important;
+  border: 0 !important;
+  outline: 0;
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  background-image: url('/assets/home/faq_plus.png');
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url('/assets/home/faq-minus.png') !important;
 }
