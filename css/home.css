@@ -183,3 +183,37 @@
 .choose_card:hover .gray_icon {
   display: none;
 }
+
+.genius {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.genius .gradient_shade {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 2%;
+  left: 50%;
+  transform: rotate(26deg) translate(-50%);
+}
+
+.genius .row {
+  border-radius: 21px;
+  background: var(--Other-Color-01, #1E1E1E);
+  padding: 80px;
+}
+
+.genius button {
+  color: #0A0A0A;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  padding: 10px;
+  max-width: 234px;
+  width: 100%;
+  border-radius: 11px;
+  background: var(--Color-04, #A7F46A);
+  border: none;
+}
