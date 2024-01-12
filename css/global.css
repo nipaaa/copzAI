@@ -161,7 +161,6 @@ footer span {
 .help p {
 
     font-family: 'Outfit', sans-serif;
-    font-size: 32px;
     font-weight: 600;
     line-height: 42px;
     max-width: 530px;
@@ -176,4 +175,36 @@ footer span {
     border-radius: 11px;
     background: var(--Secondary-color, #FFF);
     border: 0;
+}
+
+@media screen and (max-width:991px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        gap: 20px;
+        margin: 20px 0;
+    }
+
+    .sub_mb {
+        margin-bottom: 45px;
+    }
+
+    .section_pb {
+        padding-bottom: 50px;
+    }
+
+    .section_gap {
+        margin-bottom: 50px;
+    }
+
+    .section_pt {
+        padding-top: 45px;
+    }
+
 }

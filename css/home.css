@@ -246,3 +246,22 @@
 .accordion-button:not(.collapsed)::after {
   background-image: url('/assets/home/faq-minus.png') !important;
 }
+
+@media screen and (max-width:991px) {
+  .material .subtitle {
+    margin-bottom: 25px;
+  }
+
+  .genius {
+    background-image: unset;
+  }
+
+  .genius .row {
+    padding: 25px 10px;
+  }
+
+  .help {
+    flex-direction: column;
+    padding: 15px;
+  }
+}
