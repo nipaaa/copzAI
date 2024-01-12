@@ -111,11 +111,7 @@
   margin-top: 42px;
 }
 
-.form-check .form-check-input {
-  float: unset;
-}
-
-.form-switch {
+.switch {
   margin-bottom: 54px;
 }
 
@@ -263,5 +259,9 @@
   .help {
     flex-direction: column;
     padding: 15px;
+  }
+
+  .choose_card .dollar {
+    font-size: 30px;
   }
 }

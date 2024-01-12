@@ -375,12 +375,21 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="title mb-4">Choose a pricing plain</h2>
-                    <div class="form-check form-switch d-flex align-items-center justify-content-center  ps-0">
-                        <p class="subtitle">Monthly</p>
-                        <input class="form-check-input ms-4" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                        <p class="subtitle ps-4">Yearly</p>
 
+                    <div class="switch d-flex align-items-center justify-content-center gap-4">
+                        <p class="subtitle">Monthly</p>
+                        <div>
+                            <div class="form-check form-switch"
+                                style="z-index: 9999; position:relative;">
+                                <input style="cursor:pointer; height: 38px; width:60px;" class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckDefault">
+
+                            </div>
+                        </div>
+                        <p class="subtitle">Yearly</p>
                     </div>
+
+
                 </div>
 
                 <div class="row g-4">
@@ -643,7 +652,6 @@
                 </div>
             </div>
         </section>
-
 
     </main>
 
