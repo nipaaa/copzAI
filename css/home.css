@@ -261,6 +261,10 @@
     padding: 15px;
   }
 
+  .choose_card {
+    padding: 25px 15px;
+  }
+
   .choose_card .dollar {
     font-size: 30px;
   }
