@@ -50,3 +50,20 @@
     border: 0;
 }
 
+.img_box {
+    position: relative;
+    /* box-shadow: 0 0 100px #4B34AB;
+    box-shadow: -48px -2px 116px -26px #4B34AB;
+-webkit-box-shadow: -48px -2px 116px -26px #4B34AB;
+-moz-box-shadow: -48px -2px 116px -26px rgba(0,0,0,0.28); */
+    box-shadow: 0 0 100px rgba(75, 52, 171, 0.5);
+}
+
+.back_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2);
+    z-index: -1;
+    object-fit: contain;
+}
