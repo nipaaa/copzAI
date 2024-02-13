@@ -1,3 +1,11 @@
+.contact {
+    background-image: url('../assets/contact/contact-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+}
+
 .get_in_touch h2 {
     font-size: 42px;
     margin-bottom: 56px;
@@ -57,4 +65,38 @@
     background: #3E3D40;
     width: 100%;
     padding: 20px;
+}
+
+.touch_card button {
+    border-radius: 13px;
+    background: #5B56CD;
+    width: 195px;
+    color: var(--Secondary-color, #FFF);
+    text-shadow: 0px 4.108px 4.108px rgba(0, 0, 0, 0.25);
+    font-size: 18.484px;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: capitalize;
+    padding: 11px;
+    border: 0;
+}
+
+.touch_card .res {
+    color: var(--Secondary-color, #FFF);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+@media screen and (max-width:767px) {
+    .contact {
+
+        padding-top: 50px;
+    }
+
+    .touch_card {
+        padding: 20px;
+    }
+
 }
